@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="catforanhour icon" href="caticon.ico">
+    <title>Котик на час</title>
+
+
+
+
+
+
+</head>
+<body>
+<header>
+    <section class="cat_header">
+      <section class="header_img">
+        <img src="img/cat_icon.png" alt="Иконка сайта" width="58" height="62">
+        <img src="img/cat_title.jpg" alt="Заголовок сайта" width="193" height="44">
+      </section>
+
+      <section class="header_contact">
+        <div class="trace adress">
+         <img src="img/cat_trace.jpg" alt="Рисунок контакта" width="27" height="25">
+         <p>Пушкинская, 28</p>
+        </div>
+        <div class="trace">
+         <img src="img/cat_trace.jpg" alt="Рисунок контакта" width="27" height="25">
+         <p>+7 928 567 64 54</p>
+        </div>
+       </section>
+    </section>
+
+    <ul class="cat_menu mob_menu--close">
+        <button class="mob_close" type="button">Закрыть</button>
+        <li class="cat_menu--item but_menu"><a>Меню</a></li>
+        <li class="cat_menu--item we"><a>О нас</a></li>
+        <li class="cat_menu--item services"><a>Услуги</a></li>
+        <li class="cat_menu--item certificates" ><a>Сертификаты</a></li>
+        <li class="cat_menu--item rent" ><a>Условия аренды</a></li>
+        <li class="cat_menu--item photo" ><a>Фото</a></li>
+        <li class="cat_menu--item contacts"><a>Контакты</a></li>
+        <li class="cat_menu--item--call"><p>Обратный звонок</p></li>
+
+    </ul>
+
+
+
+</header>
+
+
+<main>
+
+
+    <div class="sim-slider">
+        <ul class="sim-slider-list">
+            <li><img class="screen" src="img/screen.png" alt="screen"></li> <!-- это экран -->
+            <li class="sim-slider-element"><img class="imgslaider" src="img/slider_cat_1.jpg" alt="cat1"></li>
+            <li class="sim-slider-element"><img class="imgslaider" src="img/slider_cat_2.jpg" alt="cat2"></li>
+            <li class="sim-slider-element"><img class="imgslaider" src="img/slider_cat_3.jpg" alt="cat3"></li>
+        </ul>
+        <div class="sim-slider-arrow-left"></div>
+        <div class="sim-slider-arrow-right"></div>
+        <div class="sim-slider-dots"></div>
+    </div>
+
+
+    <section class="catalogue">
+        <div class="catalogue_title">
+           <p>Возьми домой котика</p>
+            <img class="catalogue_line" src="img/line.png">
+        </div>
+
+
+        <div class="catalogue_photo">
+
+                 <div class="catalogue_cat lef_pad">
+                    <img class="catalogue_img" src="img/catalogue_cat_1.jpg">
+                    <p class="catalogue_name">Люси, 3 года</p>
+                 </div>
+                 <div class="catalogue_cat lef_pad">
+                    <img class="catalogue_img_big" src="img/catalogue_cat_2.jpg">
+                    <p class="catalogue_name">Люси, 3 года</p>
+                 </div>
+                 <div class="catalogue_cat">
+                    <img class="catalogue_img" src="img/catalogue_cat_3.jpg">
+                    <p class="catalogue_name">Марта, 2 месяца</p>
+                 </div>
+                 <div class="catalogue_cat">
+                    <img class="catalogue_img" src="img/catalogue_cat_4.jpg">
+                    <p class="catalogue_name">Люси, 3 года</p>
+                 </div>
+                 <div class="catalogue_cat">
+                    <img class="catalogue_img" src="img/catalogue_cat_5.jpg">
+                    <p class="catalogue_name">Люси, 3 года</p>
+                 </div>
+                 <div class="catalogue_cat rig_pad">
+                    <img class="catalogue_img_big" src="img/catalogue_cat_6.jpg">
+                    <p class="catalogue_name">Люси, 3 года</p>
+                 </div>
+                 <div class="catalogue_cat rig_pad">
+                     <img class="catalogue_img" src="img/catalogue_cat_7.jpg">
+                    <p class="catalogue_name">Люси, 3 года</p>
+                 </div>
+        </div>
+    </section>
+
+
+
+
+</main>
+
+<footer class="footer_cat">
+
+    <p><a href="#" class="confidentiality">Политика конфиденциальности</a></p>
+    <p>Пушкинская, 28<br>+7 928 567 64 54</p>
+
+</footer>
+
+<div id="grey_back">
+        <section class="window_call form_closed">
+            <div class="form_title"><p>Заказ обратного звонка</p></div>
+
+            <form class="form_call" action="#" method="post">
+                <p class="form-discription">Имя</p>
+
+
+                    <input class="user_form" type="text" required
+                           pattern="[A-Za-zА-Яа-яЁё] {,15}">
+
+                <p class="form-discription user_phone">Телефон</p>
+
+
+                    <input class="user_form" type="text"
+                           required pattern="(\+79[0-9]{9}|8[0-9]{10})">
+
+                <input class="button_call" type="submit" value="Отправить">
+            </form>
+
+            <button class="call_close" type="button">Закрыть</button>
+        </section>
+</div>
+<!-- подключение слайдера -->
+<script src="js/slider.js"></script>
+<!-- вызов слайдера -->
+<script>new Sim()</script>
+
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>
